@@ -1,0 +1,208 @@
+*{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+.encabezado{
+    background:#485353;
+}
+
+#título{
+    font-size: 20px;
+    text-align: left;
+    color: white;
+}
+
+.menú{
+    padding: 25px;
+}
+
+.link{
+    outline: none;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.linkgris{
+    outline: none;
+    text-decoration: none;
+    color: grey;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.linkverde{
+    outline: none;
+    text-decoration: none;
+    color: rgb(25, 156, 25);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#fotoprincipal{
+    height: 600px;
+}
+
+.foto{
+    display: flex;
+}
+
+#fotoprincipal{
+    filter: brightness(50%);
+}
+
+.descripción{
+position: absolute;
+width: 40%;
+color: rgb(255, 252, 252);
+left: 690px;
+top: 340px;
+}
+
+#descrip{
+    text-align: right;
+}
+
+#quiero{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8%;
+    color:white;
+    background-color: transparent;
+    border-color: white;
+    }
+    
+#comprar{
+    background-color: #318b29;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8%;
+    color: white;
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 32px;
+    text-align: right;
+}
+
+.bold2{
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+}
+
+.desc{
+    text-align: left;
+}
+
+.oradores{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagenorador{
+    width: 100%;
+    height: 100%;
+}
+
+.left{
+    text-align: left;
+}
+
+.bold3{
+    color: white;
+    text-align: left;
+}
+
+h3{
+    text-align: left;
+}
+
+#w{
+    color: white;
+}
+
+#quiero2{
+    display: flex;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8%;
+    color:white;
+    background-color: transparent;
+    border-color: white;
+    }
+
+.colorcito{
+    font-size: 12px;
+    background-color: yellow;
+    display: inline;
+    border-radius: 5%;
+    font-weight: bold;
+}
+
+.colorcito2{
+    font-size: 12px;
+    background-color: blue;
+    display: inline;
+    border-radius: 5%;
+    color: white;
+    font-weight: bold;
+}
+
+.colorcito3{
+    font-size: 12px;
+    background-color: grey;
+    display: inline;
+    border-radius: 5%;
+    color: white;
+    font-weight: bold;
+}
+
+.colorcito4{
+    font-size: 12px;
+    background-color: red;
+    display: inline;
+    border-radius: 5%;
+    color: white;
+    font-weight: bold;
+}
+
+.paisajes{
+    background:#3B4444;
+}
+
+#honolulu{
+    width: 100%;
+}
+
+.formulario{
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#chiquito{
+    font-size: 10px;
+    text-align: left;
+}
+
+#enviar{
+    background-color: #A9D753;
+    color: white;
+}
+
+.menúpie{
+    background:#287376;
+    text-align: center;
+    color: white;
+    padding: 30px;
+}

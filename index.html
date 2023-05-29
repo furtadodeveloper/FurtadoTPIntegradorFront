@@ -162,22 +162,24 @@
         <p>CONVIÉRTETE EN UN</p>
         <p class="bold2">ORADOR</p>
         <p>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar.</p>
-        <label> </label>
-        <div class="row">
-            <div class="col-6">
-                <input type="text" name="user" id="nombreusuario" placeholder="Nombre"> 
+            <form action>
                 <label> </label>
-            </div>
-            <div class="col-6">
-                <input type="text" name="user" id="apellidousuario" placeholder="Apellido"> 
-                <label> </label>                
-            </div>
-        </div>
-        <input type="text" name="user" id="sobrequéequiereshablar" placeholder="¿Sobre qué quieres hablar?"> 
-        <br>
-        <p id="chiquito">Recuerda incluir un título para tu charla.</p>
-        <input id="enviar" type="submit" value="Enviar"> 
-    </section>
+                 <div class="row">
+                     <div class="col-6">
+                         <input type="text" name="userfname" id="nombreusuario" placeholder="Nombre"> 
+                         <label> </label>
+                     </div>
+                     <div class="col-6">
+                         <input type="text" name="userlname" id="apellidousuario" placeholder="Apellido"> 
+                         <label> </label>                
+                     </div>
+                 </div>
+                 <textarea name="mensaje" id="sobrequéequiereshablar" rows="3">¿Sobre qué quieres hablar? </textarea>
+                 <br>
+                 <p id="chiquito">Recuerda incluir un título para tu charla.</p>
+                 <input id="enviar" type="submit" value="Enviar"> 
+             </form>
+     </section> 
 
     <br>
 
